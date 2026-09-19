@@ -3,6 +3,15 @@ class_name 	playercontroll
 var direction2 = 0
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
+var spawn_point : Vector2 
+
+func _ready():
+	spawn_point = global_position
+	
+func respawn():
+	global_position= spawn_point
+	velocity =Vector2.ZERO
+
 
 
 func _physics_process(delta: float) -> void:
