@@ -21,7 +21,7 @@ const API_MENU_ITEM: String = "Wakatime API key"
 const CONFIG_MENU_ITEM: String = "Wakatime Config File"
 
 # Directories to grab wakatime from
-var wakatime_dir =  e0764cac-5e86-4ca5-b434-4c842406d3bc
+var wakatime_dir = null
 var wakatime_cli = null
 var decompressor_cli = null
 
